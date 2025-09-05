@@ -2121,6 +2121,8 @@ a {
   color: #bed3f9;
 }
 .cid-uUz1rNBttQ {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/eventbrite21601080-2000x1000.png");
 }
 .cid-uUz1rNBttQ .mbr-fallback-image.disabled {
@@ -2134,6 +2136,14 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-uUz1rNBttQ .mbr-section-subtitle {
+  color: #8636ff;
+  text-align: center;
+}
+.cid-uUz1rNBttQ .mbr-text,
+.cid-uUz1rNBttQ .mbr-section-btn {
+  text-align: center;
 }
 .cid-uUewUfqg5x {
   padding-top: 0rem;
