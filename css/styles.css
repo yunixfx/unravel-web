@@ -1,0 +1,192 @@
+:root {
+    --primary-font: 'Jost', sans-serif;
+    --secondary-font: 'Epilogue', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: #fafafa;
+    color: #232323;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--primary-font);
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background-image: url('../assets/images/webbg-1080x607.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Simple parallax effect */
+    background-color: #000;
+    min-height: 50vh; /* Reduced for sub-pages */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 4rem 1rem;
+    margin-top: 76px; /* Offset for fixed navbar */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.hero-logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    max-height: 200px;
+}
+
+/* Quest Card */
+.quest-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.quest-card:hover {
+    transform: translateY(-5px);
+}
+
+.quest-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+}
+
+.quest-img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.quest-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.quest-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Social Section */
+.social-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.social-icon {
+    font-size: 2.5rem;
+    margin: 0 1rem;
+    color: #232323;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #6c757d;
+}
+
+.socicon-instagram:hover { color: #E1306C; }
+.socicon-tiktok:hover { color: #000000; }
+.socicon-telegram:hover { color: #0088cc; }
+.socicon-whatsapp:hover { color: #25D366; }
+
+/* Footer */
+footer {
+    background-color: #232323;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+/* Maps */
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Video Wrapper */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
