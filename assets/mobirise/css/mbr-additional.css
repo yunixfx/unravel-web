@@ -2874,15 +2874,17 @@ a {
   overflow: hidden;
 }
 
-.cid-tbom-custom {
+.cid-quest-media {
   padding-top: 4rem;
   padding-bottom: 3rem;
+}
+.quest-media-bg-tbom {
   background-image: url("../../../assets/images/tbom-1000x750.png");
 }
-.cid-tbom-custom .mbr-fallback-image.disabled {
+.cid-quest-media .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tbom-custom .mbr-fallback-image {
+.cid-quest-media .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -2891,42 +2893,42 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-tbom-custom .mbr-section-subtitle {
+.quest-media-bg-tbom .mbr-section-subtitle {
   color: #8636ff;
   text-align: center;
 }
-.cid-tbom-custom .mbr-text,
-.cid-tbom-custom .mbr-section-btn {
+.quest-media-bg-tbom .mbr-text,
+.quest-media-bg-tbom .mbr-section-btn {
   text-align: center;
 }
 
 @media (min-width: 992px) {
-  .cid-tbom-custom .tbom-row {
+  .cid-quest-media .quest-media-row {
     display: flex;
     align-items: stretch;
     gap: 0;
     margin-bottom: 0;
   }
-  .cid-tbom-custom .container {
+  .cid-quest-media .container {
     padding-bottom: 0;
   }
-  .cid-tbom-custom .row {
+  .cid-quest-media .row {
     margin-bottom: 0;
   }
-  .cid-tbom-custom .tbom-text-col,
-  .cid-tbom-custom .tbom-video-col {
+  .cid-quest-media .quest-media-text-col,
+  .cid-quest-media .quest-media-video-col {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
   }
-  .cid-tbom-custom .tbom-video-wrap {
+  .cid-quest-media .quest-media-video-wrap {
     display: flex;
     flex: 1 1 auto;
     height: 100%;
     align-items: center;
     justify-content: center;
   }
-  .cid-tbom-custom .tbom-video {
+  .cid-quest-media .quest-media-video {
     height: 600px;
     width: auto;
     aspect-ratio: 9 / 16;
@@ -2936,17 +2938,17 @@ a {
 }
 
 @media (max-width: 991.98px) {
-  .cid-tbom-custom .tbom-video-col {
+  .cid-quest-media .quest-media-video-col {
     margin-top: 1rem;
   }
-  .cid-tbom-custom .tbom-video {
+  .cid-quest-media .quest-media-video {
     width: 100%;
     height: auto;
     aspect-ratio: 9 / 16;
   }
 }
 
-.cid-tbom-custom .tbom-player {
+.cid-quest-media .quest-media-player {
   position: relative;
   width: 100%;
   /* height: 100%; */
